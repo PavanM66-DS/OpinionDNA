@@ -1,6 +1,8 @@
 # Opinion DNA 🧬
 ### Customer Opinion Intelligence Using NLP
 
+https://opinion-dna-pavan.streamlit.app/
+
 Opinion DNA is an interactive web application that analyzes customer reviews using Natural Language Processing (NLP) and pretrained machine learning models. It identifies overall sentiment, extracts potential product aspects, predicts aspect-level sentiment, and detects emotions expressed in review text.
 
 ## Features
