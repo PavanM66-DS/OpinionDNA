@@ -1,11 +1,10 @@
+import sys
+from pathlib import Path
 
 import streamlit as st
 import pandas as pd
 import plotly.express as px
 
-from opinion_dna.sentiment import analyze_sentiment
-from opinion_dna.aspects import analyze_aspects
-from opinion_dna.emotions import analyze_emotion
 from opinion_dna.pipeline import analyze_review
 
 st.set_page_config(
