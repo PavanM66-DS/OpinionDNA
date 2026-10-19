@@ -5,6 +5,10 @@ import streamlit as st
 import pandas as pd
 import plotly.express as px
 
+PROJECT_ROOT = Path(__file__).resolve().parents[1]
+if str(PROJECT_ROOT) not in sys.path:
+    sys.path.insert(0, str(PROJECT_ROOT))
+    
 from opinion_dna.pipeline import analyze_review
 
 st.set_page_config(
